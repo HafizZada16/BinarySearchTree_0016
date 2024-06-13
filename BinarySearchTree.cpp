@@ -11,6 +11,8 @@ public:
 
     Node(string i, Node* l, Node* r)
     {
-
+        info = i;
+        leftchild = l;
+        rightchild = r;
     }
 };
